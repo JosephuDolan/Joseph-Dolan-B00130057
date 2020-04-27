@@ -1,0 +1,152 @@
+<html>
+<head>
+	<title>CatCo.</title>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+	<div class="main-intro">
+		<header>
+			<nav>
+				<div class="logo">
+					<img src="src/images/cat.png" />
+					<h3>CatCo.</h3>
+				</div>
+	
+				<ul class="main-nav">
+					<a href="/" class="active"><li>Home</li></a>
+					<a href="about.html"><li>About</li></a>
+					<a href="projects.html"><li>Projects</li></a>
+					<a href="staff.html"><li>Staff</li></a>
+					<a href="suport.html"><li>Suport</li></a>
+					<a href="news.html"><li>News</li></a>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="welcome-title">
+			<h1>Welcome to Cat Co</h1>
+			<a herf="/pages/watch"><button>Watch Video</button></a>
+			<a herf="/pages/explore"><button>Explore</button></a>
+		</div>
+
+	</div>
+
+
+	<div class="content">
+		<div class="row">
+			<div class="column-half newsletter-signup">
+				<h2>Get In Touch</h2>
+				
+				<form action="/signup-to-newsletter" id="newsletter-form">
+					<label for="email">Email</label>
+					<input type="email" name="email" />
+					<label for="name">Name</label>
+					<input type="text" name="name" />
+					<label for="phone">Phone number</label>
+					<input type="phone" name="phone" />
+				</form>
+				<button type="submit" class="signup-btn" form="newsletter-form">Submit</button>
+			</div>
+<div class="column-half media-choice">
+				<h2>Mesage Us!</h2>
+				<form action="/leave-comment" id="comment-form">
+					<textarea name="comment-box" id="page-comment-box-1" cols="30" rows="10"></textarea>
+				</form>
+				<button type="submit" class="signup-btn" form="newsletter-form">Send Message!</button>
+			</div>
+		</div>
+	</div>
+
+	
+
+	 
+	<div class="content">
+		<div class="row">
+			<div class="column-half newsletter-signup">
+				<h2>Newsletter</h2>
+				<form action="/signup-to-newsletter" id="newsletter-form">
+					<label for="email">Email</label>
+					<input type="email" name="email" />
+					<label for="name">Name</label>
+					<input type="text" name="name" />
+					<label for="phone">Phone number</label>
+					<input type="phone" name="phone" />
+				</form>
+				<button type="submit" class="signup-btn" form="newsletter-form">Submit</button>
+			</div>
+
+
+			<div class="column-half media-choice">
+				<h2> What Media to you use?</h2>
+				
+				<form action="/submit-media" id="social-media-form">
+					<div class="social-media">
+						<label for="facebook">
+							<i class="fab fa-facebook"></i>
+							Facebook
+						</label>
+						<input type="checkbox" name="facebook" value="facebook">
+					</div>
+					<div class="social-media">
+						<label for="instagram">
+							<i class="fab fa-instagram"></i>
+							Instagram
+						</label>
+						<input type="checkbox" name="instagram" value="instagram">
+					</div>
+					<div class="social-media">
+						<label for="whatsapp">
+							<i class="fab fa-whatsapp"></i>
+							Whatsapp
+						</label>
+						<input type="checkbox" name="whatsapp" value="whatsapp">
+					</div>
+					<div class="social-media">
+						<label for="discord">
+							<i class="fab fa-discord"></i>
+							Discord
+						</label>
+						<input type="checkbox" name="discord" value="discord">
+					</div>
+					<div class="social-media">
+						<label for="snapchat">
+							<i class="fab fa-snapchat"></i>
+							Snapchat
+						</label>
+						<input type="checkbox" name="snapchat" value="snapchat">
+					</div>
+					<button type="submit" class="signup-btn right" form="social-media-form">Accept</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column-full comment">
+				<h2>Leave A Comment</h2>
+				<form action="/leave-comment" id="comment-form">
+					<textarea name="comment-box" id="page-comment-box-1" cols="30" rows="10"></textarea>
+				</form>
+				<button type="submit" class="signup-btn" form="newsletter-form">Leave Comment</button>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+
+
+	<footer>
+		<ul>
+			<li>Homepage</li>
+			<li>Learn More</li>
+			<li>Get in touch</li>
+			<li>FAQ</li>
+			<li>References</li>
+		</ul>
+	</footer>
+
+</body>
+</html>

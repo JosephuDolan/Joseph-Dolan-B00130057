@@ -1,0 +1,221 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-size: 1em;
+	letter-spacing: 1px;
+	padding: 10px;
+	margin: 0 10px;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+button:hover {
+	color: black;
+	background: white;
+}
+
+
+footer {
+	height: 100px;
+	background-color: #222;
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer ul li {
+	display: inline-block;
+	color: white;
+	font-size: 1.2em;
+	margin: 0 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  display: block;
+	font-size: 1.1em;
+	background-color: #cfcfcf;
+	border: none;
+	margin: 5px 0;
+	list-style: none;
+	font-family: 'Roboto', sans-serif; 
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+
+}
+
+
+
+
+.main-intro {
+	background-image: url(images/bg1.jpg);
+	height: 80vh;
+	width: 100%;
+	z-index: -1;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.welcome-title {
+	display: block;
+	width: 500px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 23%;
+}
+
+.welcome-title h1 {
+	font-size: 3em;
+	margin: 0.5em 0;
+}
+
+
+
+nav {
+	height: 100px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin: 0 30px;
+}
+
+/* trying to hover needs fix */
+.logo img {
+	width: 200px;
+	height: auto;
+	float: left;
+}
+
+.logo h3 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: black;
+	letter-spacing: 0.5em;
+	position: absolute;
+	left: 200px;
+	top: 17px;
+}
+
+/* for curent page^^*/
+.main-nav li {
+	 display: inline-block;
+	 padding: 40px 30px;
+}
+/* lining up nav^^*/
+.main-nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid white;
+	margin: 0 10px;
+	font size: 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.main-nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+.main-nav a.active {
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+.main-nav a.active::before {
+	content: ">";
+	position: relative;
+	top: 0.05em;
+	font-size: 1.1em;
+	left: 0.2em;
+}
+
+
+
+.content {
+	margin: 80px 0180px;
+}
+
+.newsletter-signup form input {
+	display: block;
+	font-size: 1.7em;
+	background-color: #cfcfcf;
+	border: none;
+	width: 90%;
+	margin: 5px 0;
+}
+
+.signup-btn {
+	border: 2px solid black;
+	color: black;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 0.4s ease-in-out;
+}
+
+.signup-btn:hover {
+	background-color: black;
+	color: white;
+}
+
+.signup-btn.right {
+	float: right;
+}
+
+.social-media {
+	padding: 10px 0;
+}
+.social-media input[type='checkbox'] {
+	float: right;
+}
+
+
+.row {
+	display: block;
+}
+
+.column-half {
+	vertical-align: top;
+	display: inline-block;
+	width: 49%;
+	margin: 0;
+}
+
+
+.column-full {
+	vertical-align: top;
+	display: inline-block;
+	width: 99%;
+	margin: 0;
+}
+
+
+
+.comment {
+	margin-top: 1.5em;
+}
+.comment textarea {
+	width: 100%;
+	resize: none;
+}
+
